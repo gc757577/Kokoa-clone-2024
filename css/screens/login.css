@@ -1,3 +1,36 @@
+.main {
+    display: flex;
+    flex-direction: column;
+}
+.main__title__big{
+    display: flex;
+    justify-content: center;
+    padding-top: 60px;
+    padding-bottom: 20px;
+    font-size: 20px;
+}
+.main__title__small {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: rgb(149, 149, 149);
+    padding-bottom: 60px;
+}
 
+
+
+.main__login-form{
+    padding: 0px 20px;
+}
+.main__login-form__input {
+    display: flex;
+    flex-direction: column;
+}
+.main__login-form__input input{
+    padding: 20px 0;
+    font-size: 16px;
+    border: none;
+    border-bottom: solid 1px rgb(184, 184, 184);
+}
 
 
