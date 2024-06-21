@@ -1,0 +1,10 @@
+.nav {
+    background-color: rgb(247, 247, 247);
+    padding: 14px 0;
+    border-top: solid 1px rgb(229, 229, 229);
+}
+.nav__list   {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 40px;
+}
