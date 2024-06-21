@@ -12,6 +12,8 @@
     margin: 0 14px;
 }
 
+
+
 .friends-name{
     display: flex;
     justify-content: center;
@@ -26,4 +28,14 @@
 }
 .friends-name i{
     color: rgb(190, 190, 190);
+}
+
+
+.main{
+    padding: 0 10px;
+}
+
+.navigation-bar{
+    display: flex;
+    right: 10px;
 }
