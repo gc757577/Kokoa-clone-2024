@@ -52,6 +52,7 @@
     border: none;
     background-color: var(--yellow);
     cursor: pointer;
+    border-radius: 3px;
 }
 .main__find__text{
     display: flex;
