@@ -50,6 +50,7 @@
     padding: 13px 0;
     margin-bottom: 10px;
     border: none;
+    background-color: var(--yellow);
 }
 .main__find__text{
     display: flex;
