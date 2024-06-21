@@ -34,3 +34,23 @@
 }
 
 
+.main__login-form__button{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+.main__login-form__button button{
+    padding: 13px 0;
+    margin-bottom: 10px;
+    border: none;
+}
+.main__find__text{
+    display: flex;
+    justify-content: center;
+    font-size: 13px;
+}
+
+
+
+
+
