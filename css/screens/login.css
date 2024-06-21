@@ -25,12 +25,19 @@
 .main__login-form__input {
     display: flex;
     flex-direction: column;
+    transition: border-color .3s ease-in-out;
 }
 .main__login-form__input input{
     padding: 20px 0;
-    font-size: 16px;
     border: none;
     border-bottom: solid 1px rgb(184, 184, 184);
+}
+.main__login-form__input input::placeholder{
+    font-size: 16px;
+    color: rgb(166, 166, 166);
+}
+.main__login-form__input:focus {
+    border-color: var(--yellow);
 }
 
 
