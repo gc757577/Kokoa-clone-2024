@@ -1,10 +1,13 @@
-
 .friends-name{
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: rgb(244, 244, 244);
     padding: 9px 0;
+    position: fixed;
+    box-sizing: border-box;
+    width: 100%;
+    top: 65px;
 }
 .friends-name span{
     margin: 0px 5px;
@@ -17,6 +20,7 @@
 
 
 .main{
-    padding: 0 10px;
+    height: 100vh;
+    padding: 100px 10px 0 10px;
 }
 
