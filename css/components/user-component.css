@@ -1,8 +1,6 @@
 .main__user-component {
     display: flex;
     padding: 8px 0 16px 0;
-    border-bottom: solid 1px rgb(225, 225, 225);
-
 }
 .main__user-component__column:first-child{
     display: flex;
@@ -22,4 +20,33 @@
 .main__user-component__title{
     font-weight: 600;
     font-size: 18px;
+}
+.main__user-component__subtitle{
+    margin-top: 5px;
+    color: rgb(181, 181, 181);
+}
+
+
+
+/* small */
+.main__user-component-small{
+    display: flex;
+    padding: 8px 0 16px 0;
+}
+.main__user-component__column-small:first-child{
+    display: flex;
+    align-items: center;
+}
+.main__user-component__img-small{
+    width: 45px;
+    height: 45px;
+    border-radius: 15px;
+}
+.main__user-component__text-small{
+    padding-left: 10px;
+    
+}
+.main__user-component__title-small{
+    font-weight: 400;
+    font-size: 15px;
 }

@@ -19,10 +19,22 @@
 }
 
 
-.main{
+.friends-main{
     height: 100vh;
     padding: 0 18px;
     padding-top: 100px;
+}
+.main__user-component:first-child{
+    border-bottom: solid 1px rgb(225, 225, 225);
+}
+.main__channel{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 6px;
+    color: rgb(157, 157, 157);
+}
+.main__channel__text{
+    font-size: 14px;
 }
 
 
@@ -54,5 +66,7 @@
     left: 18px;
     bottom: 16px;
 }
+
+
 
 
