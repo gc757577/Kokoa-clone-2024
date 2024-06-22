@@ -43,5 +43,15 @@
     left: 13px;
     bottom: 8px;
 }
+.nav__link__dot{
+    border-radius: 50%;
+    background-color: rgb(244, 59, 59);
+    display: flex;
+    width: 5px;
+    height: 5px;
+    position: absolute;
+    left: 18px;
+    bottom: 16px;
+}
 
 
