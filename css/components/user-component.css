@@ -1,0 +1,25 @@
+.main__user-component {
+    display: flex;
+    padding: 8px 0 16px 0;
+    border-bottom: solid 1px rgb(225, 225, 225);
+
+}
+.main__user-component__column:first-child{
+    display: flex;
+    align-items: center;
+}
+
+
+.main__user-component__img{
+    width: 60px;
+    height: 60px;
+    border-radius: 20px;
+}
+.main__user-component__text{
+    padding-left: 10px;
+    
+}
+.main__user-component__title{
+    font-weight: 600;
+    font-size: 18px;
+}
