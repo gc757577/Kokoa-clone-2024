@@ -2,6 +2,9 @@
     display: flex;
     justify-content: center;
     font-size: 14px;
+    position: fixed;
+    width: 100%;
+    background-color: white;
 }
 .status-bar__column {
     display: flex;
