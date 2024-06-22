@@ -24,3 +24,24 @@
     padding: 100px 10px 0 10px;
 }
 
+
+
+.nav__link{
+    position: relative;
+}
+.nav__link__notification {
+    border-radius: 50%;
+    background-color: rgb(244, 59, 59);
+    color: white;
+    font-size: small;
+    display: flex;
+    width: 17px;
+    height: 17px;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 13px;
+    bottom: 8px;
+}
+
+
