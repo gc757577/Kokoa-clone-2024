@@ -1,0 +1,42 @@
+.header__icom__fa-magnifying-glass{
+    padding-right: 14px;
+}
+.fa-gear {
+    position: relative;
+}
+.gear__icon__dot{
+    position: absolute;
+    bottom: 32px;
+    right: 8px;
+}
+
+
+.find-main{
+    height: 100vh;
+    padding: 0 18px;
+    padding-top: 80px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.find-main__column:first-child{
+    display: flex;
+    align-items: flex-start;
+    padding: 20px 0;
+    border-bottom: solid 1px rgb(225, 225, 225);
+}
+.find-main__menu{
+    display: flex;
+    width: 25%;
+    flex-direction: column;
+    align-items: center;
+}
+.find-main__menu__text{
+    padding-top: 20px;
+    font-size: 14px;
+}
+
+
+
