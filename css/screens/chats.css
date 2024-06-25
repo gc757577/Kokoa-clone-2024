@@ -1,0 +1,19 @@
+.fa-comment-medical{
+    padding-left: 14px;
+}
+
+
+.chats-main {
+    height: 100vh;
+    padding: 0 18px;
+    padding-top: 80px;
+}
+
+.main__user-component__column-medium__time{
+    color: rgb(128, 128, 128);
+    font-size: 13px;
+
+}
+.chats-notification{
+    margin-top: 8px;
+}

@@ -1,3 +1,9 @@
+.header__icom .fa-music{
+    margin: 0 14px;
+}
+
+
+
 .friends-name{
     display: flex;
     justify-content: center;
@@ -24,38 +30,27 @@
     padding: 0 18px;
     padding-top: 100px;
 }
-.main__user-component:first-child{
-    border-bottom: solid 1px rgb(225, 225, 225);
-}
 .main__channel{
     display: flex;
     justify-content: space-between;
     padding-top: 6px;
     color: rgb(157, 157, 157);
+    border-top: solid 1px rgb(225, 225, 225);
 }
 .main__channel__text{
     font-size: 14px;
 }
 
 
-
-.nav__link{
-    position: relative;
-}
 .nav__link__notification {
-    border-radius: 50%;
-    background-color: rgb(244, 59, 59);
-    color: white;
-    font-size: small;
-    display: flex;
-    width: 17px;
-    height: 17px;
-    justify-content: center;
-    align-items: center;
     position: absolute;
     left: 13px;
     bottom: 8px;
+    }
+.nav__link{
+    position: relative;
 }
+
 .nav__link__dot{
     border-radius: 50%;
     background-color: rgb(244, 59, 59);
