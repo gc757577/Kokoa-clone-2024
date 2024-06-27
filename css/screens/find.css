@@ -1,9 +1,7 @@
 .header__icom__fa-magnifying-glass{
     padding-right: 14px;
 }
-.fa-gear {
-    position: relative;
-}
+
 .gear__icon__dot{
     position: absolute;
     bottom: 32px;
@@ -36,7 +34,99 @@
 .find-main__menu__text{
     padding-top: 20px;
     font-size: 14px;
+    text-align: center;
 }
 
+
+
+.find-recomended-header{
+    padding-top: 10px;
+    font-size: 13px;
+    color: rgb(139, 139, 139);
+}
+.find-recomended-center{
+    display: flex;
+    padding: 80px 0;
+    justify-content: center;
+    color: rgb(139, 139, 139);
+    border-bottom: solid 1px rgb(225, 225, 225);
+}
+
+
+
+.find-main__open-chat__header{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+    font-size: 13px;
+    color: rgb(139, 139, 139);
+}
+.find-main__open-chat__header__column:last-child{
+    color: rgb(185, 185, 185);
+}
+
+
+
+.find-main__open-chat__contents__column{
+    padding: 10px 0;
+    border-bottom: solid 1px rgb(225, 225, 225);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.find-main__open-chat__contents__text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.find-main__open-chat__contents__user{
+    display: flex;
+}
+.find-main__open-chat__contents__teg{
+    font-size: 14px;
+    color: rgb(139, 139, 139);
+    padding: 7px 0;
+}
+.find-main__open-chat__contents__user{
+    font-size: 13px;
+    color: rgb(166, 166, 166);
+}
+.find-main__open-chat__contents__user__img{
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+}
+.find-main__open-chat__contents__user__members{
+    padding: 0 4px;
+    border-right: solid 1.5px rgb(206, 206, 206);;
+}
+.find-main__open-chat__contents__user__state{
+    color: rgb(255, 98, 195);
+    padding-left: 4px;
+}
+.find-main__open-chat__contents__img{
+    position: relative;
+}
+.find-main__open-chat__contents__picture{
+    width: 80px;
+    height: 80px;
+    border-radius: 8px;
+}
+.find-main__open-chat__contents__heart{
+    background-color: rgba(43, 43, 43, 0.6);
+    border-radius: 8px;
+    display: flex;
+    position: absolute;
+    right: 5px;
+    bottom: 5px;
+    font-size: 12px;
+    color: white;
+    align-items: center;
+    padding: 0 7px;
+}
+.find-main__open-chat__contents__heart__icon{
+    padding: 3px 0;
+    padding-right: 4px;
+}
 
 
