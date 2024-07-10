@@ -35,11 +35,32 @@
 }
 .icon-block__text{
     font-size: 13px;
-    padding-top: 18px;
     color: rgb(111, 111, 111);
+}
+.icon-block__icon{
+    padding-bottom: 18px;
+}
+.icon-block__img{
+    padding-bottom: 8px;
+}
+.icon-block__img__img{
+    display: flex;
+    width: 42px;
+    height: 42px;
+    border-radius: 5px;
 }
 .more__drive-icon__dot{
     position: absolute;
     right: 20px;
     top: -12px;
+}
+
+
+.more-main__suggestions__title{
+    padding: 20px 0;
+    border-top: 1px solid rgb(232, 232, 232);
+    font-size: 14px;
+}
+.more-main__suggestions__icon-line{
+    display: flex;
 }
