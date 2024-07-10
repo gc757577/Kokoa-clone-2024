@@ -16,15 +16,15 @@
 }
 .main__user-component__text{
     padding-left: 10px;
-    
 }
 .main__user-component__title{
     font-weight: 600;
     font-size: 18px;
 }
 .main__user-component__subtitle{
-    margin-top: 5px;
+    margin-top: 10px;
     color: rgb(181, 181, 181);
+    font-size: 13px;
 }
 
 

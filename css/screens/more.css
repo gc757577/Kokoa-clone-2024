@@ -1,0 +1,19 @@
+.more-main{
+    height: 100vh;
+    padding: 0 18px;
+    padding-top: 80px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.main__user-component__subtitle{
+    display: flex;
+}
+.red-icon{
+    padding-left: 6px;
+}
+.more__main__user-component__column{
+    display: flex;
+    align-items: center;
+}
