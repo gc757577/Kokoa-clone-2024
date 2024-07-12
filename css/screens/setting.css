@@ -1,0 +1,22 @@
+.setting-main{
+    height: 100vh;
+    padding: 0 18px;
+    padding-top: 80px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.setting-header{
+    position: fixed;
+    top: 22px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 12px 18px;
+    box-sizing: border-box;
+}
+.setting-header__title span{
+    font-size: 17px;
+    font-weight: 600;
+}
