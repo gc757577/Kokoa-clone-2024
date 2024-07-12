@@ -1,0 +1,11 @@
+.new{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    color: white;
+    background-color: rgb(244, 59, 59);
+    font-size: 10px;
+}
