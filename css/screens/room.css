@@ -27,7 +27,6 @@
     justify-content: flex-end;
     align-items: center;
 }
-
 .room-header__title span{
     font-size: 17px;
     font-weight: 600;
@@ -38,10 +37,87 @@
 
 
 
+
 .room-main{
     height: 100vh;
     padding-top: 63px;
     display: flex;
     flex-direction: column;
     background-color: rgb(156, 180, 213);
+}
+
+
+
+
+.room-main__date{
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+}
+.room-main__date__bar{
+    background-color: rgb(130, 130, 148);
+    padding: 5px 8px;
+    border-radius: 12px;
+    color: white;
+    font-size: 13px;
+}
+
+
+
+
+.room-main__other-chatting__img{
+    width: 37px;
+    height: 37px;
+    border-radius: 13px;
+}
+.room-main__other-chatting{
+    display: flex;
+    padding: 10px 15px;
+}
+.room-main__other-chatting__column:last-child{
+    display: flex;
+    flex-direction: column;
+    padding-left: 8px;
+}
+.room-main__other-chatting__name{
+    font-size: 14px;
+    color: rgb(62, 62, 62);
+}
+.room-main__other-chatting__chat{
+    display: flex;
+    padding-top: 5px;
+}
+.room-main__other-chatting__chat__block{
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+.room-main__other-chatting__chat__time{
+    display: flex;
+    padding-left: 3px;
+    font-size: 12px;
+    align-items: flex-end;
+}
+
+
+
+.room-main__my-chatting{
+    display: flex;
+    padding: 10px 15px;
+    justify-content: end;
+}
+.room-main__my-chatting__chat{
+    display: flex;
+    padding-top: 5px;
+}
+.room-main__my-chatting__chat__time{
+    display: flex;
+    padding-right: 3px;
+    font-size: 12px;
+    align-items: flex-end;
+}
+.room-main__my-chatting__chat__block{
+    background-color: rgb(255, 221, 53);
+    padding: 10px;
+    border-radius: 10px;
 }
