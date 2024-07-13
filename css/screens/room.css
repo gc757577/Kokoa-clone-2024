@@ -1,0 +1,47 @@
+.room__status-bar{
+    background-color: rgb(156, 180, 213);
+}
+
+
+
+
+.room-header{
+    position: fixed;
+    top: 22px;
+    display: flex;
+    width: 100%;
+    padding: 12px 18px;
+    box-sizing: border-box;
+    background-color: rgb(156, 180, 213);
+}
+.room-header__back-icon{
+    width: 25%;
+}
+.room-header__title{
+    width: 50%;
+    text-align: center;
+}
+.room-header__icons{
+    width: 25%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.room-header__title span{
+    font-size: 17px;
+    font-weight: 600;
+}
+.room-header__icons .fa-bars{
+    margin-left: 20px;
+}
+
+
+
+.room-main{
+    height: 100vh;
+    padding-top: 63px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(156, 180, 213);
+}
