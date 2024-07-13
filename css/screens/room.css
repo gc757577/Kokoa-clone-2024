@@ -39,7 +39,7 @@
 
 
 .room-main{
-    height: 100vh;
+    height: 200vh;
     padding-top: 63px;
     display: flex;
     flex-direction: column;
@@ -120,4 +120,55 @@
     background-color: rgb(255, 221, 53);
     padding: 10px;
     border-radius: 10px;
+}
+
+
+
+.room-keyboard{
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+}
+.room-keyboard__column:first-child{
+    display: flex;
+    background-color: white;
+    padding: 4px 0px;
+    align-items: center;
+    justify-content: space-between;
+}
+.room-keyboard__attach{
+    padding: 0 14px;
+}
+.room-keyboard__input-board{
+    display: flex;
+    padding: 0px 0;
+    background-color: rgb(247, 247, 247);
+    border-radius: 22px;
+    border: 1px solid rgb(208, 208, 208);
+    margin-right: 12px;
+    width: 90%;
+    justify-content: space-between;
+    align-items: center;
+}
+.room-keyboard__input-board__input{
+    margin-left: 10px;
+}
+.room-keyboard__input-board__input input{
+    border: none;
+    background-color: rgb(247, 247, 247);
+    font-size: 16px;
+    width: 240px;
+}
+.room-keyboard__input-board__emotion{
+    margin-right: 10px;
+}
+.room-keyboard__input-board__up-button{
+    margin: 2px;
+    background-color: rgb(255, 221, 53);
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
