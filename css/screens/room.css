@@ -172,3 +172,114 @@
     justify-content: center;
     align-items: center;
 }
+
+
+
+.room-keyboard__column:last-child{
+    background-color: rgb(216, 216, 216);
+}
+
+
+.room-keyboard__line-1{
+    padding: 5px 0px;
+    display: flex;
+    justify-content: center;
+}
+.room-keyboard__key-line{
+    display: flex;
+    justify-content: space-between;
+}
+.room-keyboard__key-botton{
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    font-size: 25px;
+    justify-content: center;
+    align-items: center;
+    width: 32px;
+    height: 40px;
+    border-radius: 5px;
+    margin: 0 2.5px;
+}
+
+
+.room-keyboard__line-2{
+    padding: 5px 0px;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.room-keyboard__line-3{
+    padding: 5px 3px;
+    display: flex;
+    justify-content: space-between;
+}
+.gray-key-botton{
+    width: 40px;
+    height: 40px;
+    background-color: rgb(178, 180, 192);
+    border-radius: 5px;
+}
+.room-keyboard__shift-botton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 2.5px;
+}
+.room-keyboard__backspace-botton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 2.5px;
+}
+
+
+
+.room-keyboard__line-4{
+    padding: 5px 3px;
+    display: flex;
+    justify-content: space-between;
+}
+.room-keyboard__number-botton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 2.5px;
+}
+.room-keyboard__language{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 2.5px;
+}
+.room-keyboard__voice-botton{
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    justify-content: center;
+    align-items: center;
+    width: 32px;
+    height: 40px;
+    border-radius: 5px;
+    margin: 0 2.5px;
+}
+.room-keyboard__space-botton{
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    width: 143px;
+    height: 40px;
+    margin: 0 2.5px;
+}
+.room-keyboard__return-botton{
+    display: flex;
+    background-color: rgb(178, 180, 192);
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    width: 86px;
+    height: 40px;
+    margin: 0 2.5px;
+}
