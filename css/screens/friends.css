@@ -42,6 +42,31 @@
 }
 
 
+@keyframes hideSplashScreen{
+    form {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+        visibility: hidden;
+    }
+}
+.spalsh-screen{
+    background-color: rgb(255, 221, 53);
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    top: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 100px;
+    animation: hideSplashScreen 1s ease-in-out forwards;
+    animation-delay: 1s;
+}
+
+
+
 
 
 

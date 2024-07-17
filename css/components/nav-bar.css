@@ -14,10 +14,25 @@
 .nav__btn a{
     color: black;
 }
+
+
+
+@keyframes notificationAnimation {
+    0%{
+        transform: none;
+    }
+    50%{
+        transform: translateY(-5px);
+    }
+    100%{
+        transform: none;
+    }
+}
 .nav__link__notification {
     position: absolute;
     left: 13px;
     bottom: 8px;
+    animation: notificationAnimation 2s ease-in-out infinite;
 }
 .nav__link{
     position: relative;
